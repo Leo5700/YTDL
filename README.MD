@@ -46,7 +46,7 @@ esac
  В скрипте правим путь загрузки `dpath`
 
 ## Создание `alias`
-В `termux` создаём `alias`, не забыв правильный путь к скрипту:
+В `termux` создаём `alias`, не забывая правильный путь к скрипту:
 ```sh
 echo alias ytdl='"sh /storage/emulated/0/Download/youtube-dl/ytdl_01.sh"' >> .bashrc
 ```
