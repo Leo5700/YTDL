@@ -33,7 +33,7 @@ case $choose in
     # youtube-dl $vurl
     youtube-dl $vurl -o '%(playlist_index)s %(title)s by %(uploader)s on %(upload_date)s in %(playlist)s.%(ext)s'
     ;;
-  a)
+  "a")
     read -p 'paste video/playlist url ' vurl
     echo 'downloading audio..'
     youtube-dl $vurl -f worstaudio -o '%(playlist_index)s %(title)s by %(uploader)s on %(upload_date)s in %(playlist)s.%(ext)s'
