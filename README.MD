@@ -10,6 +10,7 @@
 pkg install ffmpeg
 pkg install python
 pip install youtube-dl
+# UPD ставь лучше pip install yt-dlp он сейчас качает шустрее
 termux-setup-storage
 ```
 
